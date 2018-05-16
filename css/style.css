@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    /*background-color: #fff000;*/
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    overflow: hidden;
+    
+}
+nav a{    
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size: 30px;
+    color:#000000;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #fff000;
+
+}
